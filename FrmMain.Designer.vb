@@ -28,7 +28,7 @@ Partial Class PointlessButton
         '
         'Btn
         '
-        Me.Btn.Font = New System.Drawing.Font("Consolas", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn.Font = New System.Drawing.Font("Comic Sans MS", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn.Location = New System.Drawing.Point(12, 12)
         Me.Btn.Name = "Btn"
         Me.Btn.Size = New System.Drawing.Size(420, 251)
@@ -42,9 +42,12 @@ Partial Class PointlessButton
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(444, 275)
         Me.Controls.Add(Me.Btn)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "PointlessButton"
-        Me.Text = "PointlessButton"
+        Me.ShowIcon = False
+        Me.Text = "Pointless Button"
         Me.ResumeLayout(False)
 
     End Sub
